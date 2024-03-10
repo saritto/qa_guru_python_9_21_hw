@@ -1,12 +1,12 @@
 import allure
 import pytest
+from appium import webdriver
 from appium.options.android import UiAutomator2Options
 from appium.options.ios import XCUITestOptions
-from appium import webdriver
 from selene import browser
 
 from .. import config
-from utils import attach
+from .. import attach
 
 
 @pytest.fixture(scope='function')

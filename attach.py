@@ -2,7 +2,7 @@ import allure
 import requests
 from allure_commons.types import AttachmentType
 
-from .. import config
+from . import config
 
 
 def add_screenshot(browser):
